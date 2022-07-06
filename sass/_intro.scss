@@ -1,0 +1,21 @@
+.intro-container {
+  margin-top: 50px;
+  gap: 36px;
+
+  .intro-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 36px;
+  }
+  .intro-body {
+    width: 357px;
+    height: 120px;
+    background-color: #f04a1533;
+
+    .title {
+      padding: 18px 138px 50px 18px;
+      color: $primary-color;
+    }
+  }
+}

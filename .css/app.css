@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 160px;
+}
+
+.header-container {
+  margin-top: 36px;
+  margin-bottom: 39px;
+}
+
+.hero-container .hero-content {
+  display: inline-block;
+}
+.hero-container .hero-content .hero-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.hero-container .hero-content .hero-sub {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #ff0000;
+  margin-bottom: 24px;
+}
+.hero-container .hero-content .style {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.hero-container .hero-content .style .style-att {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-container .hero-content .style .style-att .text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #8c8c8c;
+}
+.hero-container .hero-content .style .style-att .att {
+  display: flex;
+  margin-left: 50px;
+  gap: 12px;
+}
+.hero-container .hero-content .style .style-att .att-child1 {
+  padding: 1px 12px;
+  background-color: #f04a15;
+  color: #fff;
+}
+.hero-container .hero-content .style .style-att .att-child2 {
+  padding: 1px 12px;
+  background-color: #fcdbd0;
+  color: #f04a15;
+}
+.hero-container .hero-content .style .style-att .att-child3 {
+  padding: 1px 12px;
+  background-color: #595959;
+  color: #fff;
+}
+
+.intro-container {
+  margin-top: 50px;
+  gap: 36px;
+}
+.intro-container .intro-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 36px;
+}
+.intro-container .intro-body {
+  width: 357px;
+  height: 120px;
+  background-color: rgba(240, 74, 21, 0.2);
+}
+.intro-container .intro-body .title {
+  padding: 18px 138px 50px 18px;
+  color: #f04a15;
+}
+
+/*# sourceMappingURL=app.css.map */
